@@ -1,0 +1,77 @@
+.slick-slide:focus{
+    outline: none;
+}
+.category{
+padding: 0 15px;
+}
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 56%;
+    width: 96%;
+    left: 2%;
+}
+.category_container{
+    position: relative;
+}
+.prev, .next, .prev1, .next1 {
+    background: #a0a0a0;
+    color: #fff;
+    cursor: pointer;
+}
+.prev{
+    margin-right: 5px;
+}
+
+.card-image{
+    margin: 0 auto;
+}
+.d-icon {
+    background: url(../img/iconset.png);
+    width: 100px;
+    height: 85px;
+    margin: 0 auto;
+}
+.dicon-cardio{
+    background-position: 284px 0px;
+}
+.dicon-radio {
+    background-position: 184px 0px;
+}
+.dicon-neuro {
+    background-position: 385px -120px;
+}
+.dicon-ortho {
+    background-position: 0px -120px;
+}
+.dicon-gastro{
+    background-position: 92px -120px;
+}
+.dicon-genaral{
+    background-position: 179px -115px;
+}
+.info-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.clients img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.client{
+    margin: 1rem;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    padding: 5px;
+}
